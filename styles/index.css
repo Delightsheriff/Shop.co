@@ -408,7 +408,6 @@ footer {
   position: absolute;
   top: -25%;
   max-width: 87%;
-  /* display: none; */
 }
 .sub-box input:focus {
   border: 0;
