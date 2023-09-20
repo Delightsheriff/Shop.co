@@ -118,6 +118,157 @@ nav .login {
   gap: 15px;
 }
 
+/* CART */
+
+/*/////////////
+UTILITIES
+//////////// */
+.price {
+  color: #000;
+  font-family: "Roboto Mono", monospace;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  margin-top: 2em;
+  background-color: rgba(128, 128, 128, 0.395);
+}
+/* ///////////////
+  CART ITEMS
+   ////////////*/
+.cart-cont {
+  margin-top: 2em;
+  /* border: 1px solid #000; */
+}
+
+.cart-cont > p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cart-down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart-down p {
+  flex: 1;
+  text-align: center;
+  padding: 1em 0;
+}
+.cart-down p:nth-child(2) {
+  color: #000;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  border-bottom: 1px solid #000;
+}
+.cart-down p:first-child,
+.cart-down p:last-child {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.comp {
+  display: flex;
+  border: 1px solid #000;
+  margin-top: 1em;
+  gap: 1em;
+}
+
+.left-comp {
+  display: flex;
+  border: 1px solid #000;
+  justify-content: space-between;
+  gap: 1em;
+  flex: 1;
+}
+.outer-left-compbox {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.right-comp {
+  border: 1px solid #000;
+  flex: 1;
+}
+.comp-box p {
+  color: #000;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.comp-box .stars .fa-star,
+.fa-star-half {
+  color: #ffc633;
+  margin: 0.5em 0;
+}
+.comp-box .price {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  margin: 0.6em 0;
+}
+
+.comp-box .price p:first-child {
+  color: #000;
+  font-family: "Roboto Mono", monospace;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.comp-box .price p:nth-child(2) {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: "Roboto Mono", monospace;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: line-through;
+}
+.comp-box .price p:nth-child(3) {
+  color: #f33;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 6px 14px;
+  border-radius: 62px;
+  background: rgba(255, 51, 51, 0.1);
+}
+.comp-box .body p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5em 0;
+}
+
 /* HAPPY CUSTOMERS */
 .happy-customers {
   margin-top: 3em;
