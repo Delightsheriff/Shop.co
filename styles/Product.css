@@ -143,7 +143,6 @@ UTILITIES
    ////////////*/
 .cart-cont {
   margin-top: 2em;
-  /* border: 1px solid #000; */
 }
 
 .cart-cont > p {
@@ -187,14 +186,12 @@ UTILITIES
 
 .comp {
   display: flex;
-  border: 1px solid #000;
   margin-top: 1em;
   gap: 1em;
 }
 
 .left-comp {
   display: flex;
-  border: 1px solid #000;
   justify-content: space-between;
   gap: 1em;
   flex: 1;
@@ -206,7 +203,6 @@ UTILITIES
 }
 
 .right-comp {
-  border: 1px solid #000;
   flex: 1;
 }
 .comp-box p {
@@ -268,6 +264,109 @@ UTILITIES
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0.5em 0;
 }
+.select {
+  margin-top: 1.5em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 1em;
+}
+.select p,
+.size p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1em;
+}
+.elipse {
+  display: flex;
+  gap: 1em;
+}
+.eli {
+  width: 37px;
+  height: 37px;
+}
+.elipse div:first-child {
+  background: #4f4631;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.elipse div:nth-child(2) {
+  background: #314f4a;
+  border-radius: 100%;
+}
+.elipse div:last-child {
+  background: #31344f;
+  border-radius: 100%;
+}
+.size-btn {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: right;
+  padding-bottom: 1em;
+}
+.size-btn button {
+  padding: 12px 24px;
+  background: #fff;
+  border-radius: 62px;
+  border: none;
+}
+.size-btn button:first-child,
+.size-btn button:last-child,
+.size-btn button:nth-child(2) {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #f0f0f0;
+}
+.size-btn button:nth-child(3) {
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+  background: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.final-cart {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+.final-cart button:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  padding: 16px 20px;
+  border-radius: 62px;
+  width: 38%;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #f0f0f0;
+}
+.final-cart button:last-child {
+  padding: 16px 54px;
+  border-radius: 62px;
+  width: 58%;
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+  background: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 
 /* HAPPY CUSTOMERS */
 .happy-customers {
@@ -281,11 +380,19 @@ UTILITIES
 }
 .happy-box p {
   font-family: "Ubuntu Mono", monospace;
-  font-size: 48px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   color: #000;
+}
+.happy-box p span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
 }
 .happy-nav {
   display: flex;
